@@ -32,6 +32,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -55,6 +56,18 @@ h2 {
   top: 50px;
 }
 
+.red.twovert {
+  background-color: red;
+}
+
+.label{
+  color: pink;
+}
+
+.label:hover{
+  color: #FA5581;
+  font-size: 150%;
+}
 /* Colors */
 
 /* QUESTION 1 */
@@ -91,19 +104,38 @@ h2 {
   background-color: #000;
 }
 
+#white{
+  background-color: white;
+}
+
+.red.threevert{
+  background-color: red;
+}
+
+.light-blue{
+  background-color: lightblue;
+}
+
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  height: 16.6666666667%;
+  width: 100%;
+  background-color: #B5002D;
 }
 
 .thailand-white {
-  /* TODO */
+  height: 16.6666666667%;
+  width: 100%;
 }
 
 .thailand-blue {
-  /* TODO */
+  height: 33.3333333333%;
+  width: 100%;
+  background-color: #2E2A4C;
 }
+
+
 
 /* END QUESTION 2 */
 
@@ -129,11 +161,16 @@ h2 {
 }
 
 .mexico-img {
-  /* TODO */
+  align-self: center;
 }
 
 .mexico-red {
   background-color: #ce1126;
+}
+
+.mexico-flag{
+  display: flex;
+  flex-direction: row;
 }
 
 /* QUESTION 6 */
@@ -144,6 +181,21 @@ h2 {
   margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+}
+
+#container-left-half{
+  margin-right: 5px;
+}
+
+#container-right-half{
+  margin-left: 5px;
+}
+
+.padding-container{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* For margin practice */
